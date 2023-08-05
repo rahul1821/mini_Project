@@ -3,6 +3,8 @@ const app = express();
 const port = 8000;
 const expressLayouts = require('express-ejs-layouts');
 
+// import db from config
+const db = require('./config/mongoose');
 // use express layout as a function 
 app.use(expressLayouts);
 
