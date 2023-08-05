@@ -5,4 +5,5 @@ const homeController = require('../controllers/home_controller');
 
 console.log("It's Router Folder");
 router.get('/', homeController.home);
+router.use('/users',require('./users'));
 module.exports = router;
