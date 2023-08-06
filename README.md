@@ -13,7 +13,7 @@ In this Project we have created some folder (folder Structure)
 </ul>
 
 # File Struture 
-
+<img src="assets/images">
 
 # express ejs layouts
 
