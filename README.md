@@ -12,3 +12,25 @@ In this Project we have created some folders like <h5> config, controllers, mode
 
 # views
 <h2> Views contain home.ejs </h2>
+
+# express ejs layouts
+
+<ul>
+<li>1. install the ejs layouts (npm install express-ejs-layouts)</li>
+<li>2. import the main file like (index.js) as a call (const expresssLayouts = require('express-ejs-layouts'))</li>
+<li>3. use express layouts</li>
+<li>app.use(expressLayouts);</li>
+<li>for style sheet <h5>app.use('layout extractStyles', true);</h5></li>
+<li>for script <h5>app.use('layout extractScripts', true);</h5></li>
+<li></li>
+</ul>
+
+
+# Setup the Cookies
+
+<ul>
+<li>1. install (npm install cookie-parser)</li>
+<li>2. import the cookie-parser in the index.js file (const cookieParser = require('cookie-parser'))</li>
+<li>3. Call the cookie parser (app.use(cookieParser()); )</li>
+</ul>
+<h5> Finaly we can se the cookies as a respose or request brower's application field.</h5>

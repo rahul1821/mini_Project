@@ -1,15 +1,16 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/mini_project_development');
-
-const db = mongoose.connection;
-
-db.on('error', console.error.bind(console, "Error connecting to MongoDB"));
+// mongoose.connect('mongodb://localhost/mini_project_development');
 
 
-db.once('open', function(){
-    console.log('Connected to Database :: MongoDB');
-});
+// const db = mongoose.connection;
+
+// db.on('error', console.error.bind(console, "Error connecting to MongoDB"));
 
 
-module.exports = db;
+// db.once('open', function(){
+//     console.log('Connected to Database :: MongoDB');
+// });
+
+
+// module.exports = db;
