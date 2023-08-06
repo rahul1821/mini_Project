@@ -15,8 +15,10 @@ In this Project we have created some folder (folder Structure)
 # File Struture 
 <ul>
 config
-<li></li>
-<li></li>
+<li>mongoose file</li>
+assets
+<li>CSS<li>layout.css</li>
+<li>user_profile.css</li></li>
 <li></li>
 <li></li>
 <li></li>
