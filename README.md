@@ -2,17 +2,25 @@
 
 # In this mini Project Setup dairectory of the pages and controllers
 
-In this Project we have created some folders like <h5> config, controllers, models, routes, and views</h5>
+<ul>
+In this Project we have created some folder (folder Structure)
+<li>config</li>
+<li>controllers</li>
+<li>models</li>
+<li>routes</li>
+<li>views</li>
+<li>assets</li>
+</ul>
 
-# Controllers
-<h2> Controllers contain home_controller and user_controller </h2>
-
-# routes
-<h2> routes contain index and users files</h2>
-
-# views
-<h2> Views contain home.ejs </h2>
-
+# File Struture 
+<ul>
+config
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 # express ejs layouts
 
 <ul>
@@ -23,6 +31,12 @@ In this Project we have created some folders like <h5> config, controllers, mode
 <li>for style sheet <h5>app.use('layout extractStyles', true);</h5></li>
 <li>for script <h5>app.use('layout extractScripts', true);</h5></li>
 </ul>
+
+# Create signIn and SignUp page and Setup the user controller 
+<ul><li>module.exports.create = function(req, res){
+}</li></ul>
+
+
 
 
 # Setup the Cookies
