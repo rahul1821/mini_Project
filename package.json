@@ -1,20 +1,22 @@
 {
-  "name": "mini_project",
+  "name": "codeial",
   "version": "1.0.0",
-  "description": "",
+  "description": "My all social media web application",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rahul Singh",
+  "keywords": [
+    "social"
+  ],
+  "author": "CodingNinjas",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1",
-    "cookie-parser": "^1.4.6",
-    "ejs": "^3.1.9",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
     "express": "^4.18.2",
-    "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^7.4.2"
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.13.20"
   }
 }
