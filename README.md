@@ -13,7 +13,7 @@ In this Project we have created some folder (folder Structure)
 </ul>
 
 # File Struture 
-
+<img src="assets/images/mini_Project.png">
 
 # express ejs layouts
 
@@ -41,6 +41,7 @@ In this Project we have created some folder (folder Structure)
 <li>Call the cookie parser (app.use(cookieParser()); )</li>
 </ul>
 <h5>Finaly we can se the cookies as a respose or request brower's application field.</h5>
+<<<<<<< HEAD
 
 # We use Passport Authentication 
 <p>We create an local Strategy Passport</p>
@@ -51,3 +52,5 @@ In this Project we have created some folder (folder Structure)
 
 # Stabilish the server with the database
 <p>npm i connect-mongo@3</p>
+=======
+>>>>>>> 34d327dc557b4f7ae0e149cc4a69956c23e8746d
