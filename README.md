@@ -50,7 +50,6 @@ In this Project we have created some folder (folder Structure)
 # express session
 <p>npm install express-session</p>
 
-# Stabilish the server with the database
+# Stabilized the server with the database
 <p>npm i connect-mongo@3</p>
-=======
->>>>>>> 34d327dc557b4f7ae0e149cc4a69956c23e8746d
+
