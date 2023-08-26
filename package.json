@@ -1,5 +1,5 @@
 {
-  "name": "codeial",
+  "name": "miniProject",
   "version": "1.0.0",
   "description": "My all social media web application",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "social"
   ],
-  "author": "CodingNinjas",
+  "author": "Rahul Singh",
   "license": "ISC",
   "dependencies": {
     "connect-mongo": "^3.2.0",
@@ -20,6 +20,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.3",
     "mongoose": "^5.13.20",
+    "node-sass": "^9.0.0",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   }

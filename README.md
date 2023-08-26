@@ -41,7 +41,7 @@ In this Project we have created some folder (folder Structure)
 <li>Call the cookie parser (app.use(cookieParser()); )</li>
 </ul>
 <h5>Finaly we can se the cookies as a respose or request brower's application field.</h5>
-<<<<<<< HEAD
+
 
 # We use Passport Authentication 
 <p>We create an local Strategy Passport</p>

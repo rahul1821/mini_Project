@@ -1,4 +1,23 @@
+<!-- <h1>
+    Rahul Singh / <%= title %>
+</h1> -->
 
-        <h1>
-            Codeial / <%= title %>
-        </h1>
+<section id="feed-post">
+    <h4>Posts</h4>
+    <form action="/posts/create" method="POST" id="new-post-form">
+        <textarea name="content" cols="30" rows="5" placeholder="Type Here..."></textarea>
+        <input type="submit" value="Post">
+    </form>
+</section>
+
+<div id="user-post-created">
+    <h2>Users Posts</h2>
+    <ul>
+        <%for (post of posts) { %>
+        <li><%= post.content%><br>
+            <%= post.user.name%>
+        </li>
+        <%}%>
+    </ul>
+</div>
+
